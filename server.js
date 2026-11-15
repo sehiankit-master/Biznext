@@ -26,7 +26,7 @@ if (!JWT_SECRET || JWT_SECRET.length < 32) {
 }
 
 const ROOT = __dirname;
-const PUBLIC_DIR = path.join(ROOT, 'public');
+const PUBLIC_DIR = ROOT;
 const UPLOADS = path.join(PUBLIC_DIR, 'uploads');
 const STORE_PRODUCTS = path.join(ROOT, 'storage', 'products'); // private
 const STORE_PROOFS = path.join(ROOT, 'storage', 'proofs'); // private
